@@ -14,8 +14,9 @@ from sklearn.preprocessing import StandardScaler #may not use
 codePath = os.path.abspath('.')
 
 projPath = os.path.dirname(codePath)
-dataPath = os.path.join(projPath, "Data")
-print(dataPath)
 
+assignmentPath = os.path.join(projPath, "Week2-Assignment1")
+
+dataPath = os.path.join(assignmentPath, "Data")
 rawDataFilePath = os.path.join(dataPath, "Fish.csv")
 print(rawDataFilePath)
